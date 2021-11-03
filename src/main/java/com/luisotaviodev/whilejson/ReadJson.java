@@ -1,4 +1,4 @@
-package com.luisotaviodev.whilejson;
+ackage com.luisotaviodev.whilejson;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
