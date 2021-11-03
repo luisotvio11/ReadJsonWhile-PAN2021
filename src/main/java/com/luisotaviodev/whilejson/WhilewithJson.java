@@ -1,4 +1,4 @@
-package com.devnetserra.serrafood;
+package com.luisotaviodev.whilejson;
 
 import static org.hamcrest.CoreMatchers.containsString;
 
@@ -46,8 +46,16 @@ public static void main(String[] args)  throws FileNotFoundException, IOExceptio
 	   System.out.println("   " + i.next());
    }
    
-  
+  // Adicionando JSONObject Passo 3 da atividade proposta
    
+  
+    json.put("nome", "Luis Otávio");
+   json.put("Sobrenome","Batista" );
+   json.put("idade", "30");
+   
+   System.out.println(json);
+   
+   System.out.println("Nome:" + nome);
 }
 
 
